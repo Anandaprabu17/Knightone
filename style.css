@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.icon{
+	font-size:30px;
+	padding-left:20px;
+	padding-bottom:10px;
+}
+.card{
+	width:200px;
+	border:1px solid #F7F4F4;
+	background-color:#F7F4F4;
+	border-radius:10% 10% 10% 10%;
+	box-shadow:0 0 15px darkgrey;
+}
+h3{
+	padding-left:20px;
+}
+p{
+	text-align:center;
+}
+.para{
+	padding:10px 10px 15px 15px;
+}
+.row{
+	background-color:#E78B4B ;
+	padding:30px;
+	padding-top:35px;
+	display:flex;
+	justify-content:space-around;
+}
+.card:hover{
+	background-color:blue;
+	transition-delay:0.5s;
+	color:white;
+	transition-duration:0.5s;
+	transform:scale(1.2);
+}
+section{
+	width:80%;
+	margin:auto;
+	margin-top:100px;
+}
+	
